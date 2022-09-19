@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:tailwindcss/recommended",
+    "next/core-web-vitals"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
