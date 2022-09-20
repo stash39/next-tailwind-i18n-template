@@ -1,8 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a simple typesafe [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and configured to serve a mulit-language website.
+
+It consists of:
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Next SEO](https://github.com/garmeeh/next-seo#readme)
+- [Next Sitemap](https://github.com/iamvishnusankar/next-sitemap#readme)
+- [Next i18next](https://github.com/i18next/next-i18next)
+
+On the dev’s side of things it also benefits from:
+
+- [Airbnb eslint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- [Husky](https://github.com/typicode/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
 
 ## Getting Started
 
-First, run the development server:
+Clone the project and install node modules:
+```bash
+npm install
+```
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,11 +31,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can start editing the page by modifying `src/pages/index.tsx`. The page auto-updates as you edit the file.
 
 ## Learn More
 
