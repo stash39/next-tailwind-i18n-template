@@ -1,4 +1,4 @@
-This is a simple typesafe [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and configured to serve a mulit-language website.
+This is a typesafe [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and configured to serve a mulit-language website.
 
 It consists of:
 
@@ -15,18 +15,26 @@ On the dev’s side of things it also benefits from:
 - [Husky](https://github.com/typicode/husky)
 - [Lint Staged](https://github.com/okonet/lint-staged)
 
+NextJS are rolling out new Router and Layout update so you may want to read their RFC (link in the description) for the alternative ways for doing things. This setup is based on the current documentation and is not using new or experimental features.
+
+[Layout RFC](https://nextjs.org/blog/layouts-rfc)
+
 ## Getting Started
 
 Clone the project and install node modules:
 ```bash
 npm install
 ```
-Run the development server:
 
+Copy .env.sample file
+```bash
+cp .env.sample .env
+
+```
+
+Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
