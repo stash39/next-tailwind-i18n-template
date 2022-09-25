@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const translations = await serverSideTranslations(locale, ['common', 'home']);
 
   const languageAlternates: LanguageAlternative[] = locales.map((item) => ({
-    href: `${process.env.NEXT_PUBLIC_SITE_URL}/${item}`,
+    href: `${process.env.VERCEL_URL}/${item}`,
     hrefLang: `${item}`,
   }));
 
