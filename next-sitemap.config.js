@@ -1,6 +1,6 @@
 const { i18n: { locales } } = require('./next-i18next.config.js');
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const siteUrl = process.env.VERCEL_URL;
 
 const removeLocale = (locales, path) => {
   const pathArr = path.split('/');
